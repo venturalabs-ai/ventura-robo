@@ -1,26 +1,42 @@
 # VenturaRobo
 
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Status](https://img.shields.io/badge/status-incubation-orange)
+![Python](https://img.shields.io/badge/python-3.11%2B-blue)
+![License](https://img.shields.io/github/license/venturalabs-ai/ventura-robo)
 
-**Automação robótica com IA** — planejamento de trajetórias, percepção e integração ROS.
+**Laboratório de automação robótica com IA, percepção e planejamento de trajetórias.**
 
-> Ecossistema **Ventura** · [Ventura Studio](https://github.com/chamseddinehiddoud/ventura-studio)
+> Ecossistema Ventura · [Ventura Studio](https://github.com/venturalabs-ai/ventura-studio)
 
-## Funcionalidades
+## Maturidade
 
-- Planejamento de caminhos
-- Integração ROS (planejado)
-- Simulação (Gazebo / equivalentes)
+**Incubation / experimental.** Ainda não é uma solução pronta para controle de robôs reais.
 
-## Stack planejada
+## Escopo planejado
 
-Python · ROS 2 · OpenCV · FastAPI · Docker
+- planejamento de caminhos;
+- integração com ROS 2;
+- visão computacional para percepção;
+- simulação em Gazebo ou equivalente;
+- API de experimentação e telemetria.
 
-## Status
+## Stack alvo
 
-🔷 Scaffold inicial (2026-08-07).
+`Python` · `ROS 2` · `OpenCV` · `FastAPI` · `Docker`
+
+## Critérios para Beta
+
+- simulação reproduzível;
+- testes do planejamento e percepção;
+- CI bloqueante;
+- documentação de segurança e limitações;
+- exemplos versionados;
+- primeira release.
+
+## Segurança
+
+Testes em hardware físico exigem validação de limites, parada de emergência e supervisão humana adequada.
 
 ## Licença
 
-MIT
+Consulte [LICENSE](LICENSE).
