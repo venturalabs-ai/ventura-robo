@@ -1,42 +1,38 @@
-# VenturaRobo
+# 📄 README Template Padrão
 
-![Status](https://img.shields.io/badge/status-incubation-orange)
-![Python](https://img.shields.io/badge/python-3.11%2B-blue)
-![License](https://img.shields.io/github/license/venturalabs-ai/ventura-robo)
+## Preencher conforme o repositório
 
-**Laboratório de automação robótica com IA, percepção e planejamento de trajetórias.**
+# Nome do Repositório
 
-> Ecossistema Ventura · [Ventura Studio](https://github.com/venturalabs-ai/ventura-studio)
+> **Descrição curta do que este repositório faz**
 
-## Maturidade
+## 🛠 Tecnologias
 
-**Incubation / experimental.** Ainda não é uma solução pronta para controle de robôs reais.
+- Linguagem: [Python/TypeScript/Etc.]
+- Framework: [Nome do framework]
+- Ferramentas: [Ferramentas usadas]
 
-## Escopo planejado
+## 🚀 Quick Start
 
-- planejamento de caminhos;
-- integração com ROS 2;
-- visão computacional para percepção;
-- simulação em Gazebo ou equivalente;
-- API de experimentação e telemetria.
+```bash
+# Instruções de setup
+git clone https://github.com/venturalabs-ai/[repo-name].git
+cd [repo-name]
+# Comandos de instalação
+```
 
-## Stack alvo
+## 📦 Licença
 
-`Python` · `ROS 2` · `OpenCV` · `FastAPI` · `Docker`
+[MIT License](LICENSE)
 
-## Critérios para Beta
+## 🤝 Como Contribuir
 
-- simulação reproduzível;
-- testes do planejamento e percepção;
-- CI bloqueante;
-- documentação de segurança e limitações;
-- exemplos versionados;
-- primeira release.
+1. Fork o repositório
+2. Crie uma branch (`git checkout -b feature/nova-funcionalidade`)
+3. Commit suas mudanças (`git commit -m 'feat: adicionar nova funcionalidade'`)
+4. Push para a branch (`git push origin feature/nova-funcionalidade`)
+5. Abra um Pull Request
 
-## Segurança
+## 📞 Contato
 
-Testes em hardware físico exigem validação de limites, parada de emergência e supervisão humana adequada.
-
-## Licença
-
-Consulte [LICENSE](LICENSE).
+- GitHub: [@venturalabs-ai](https://github.com/venturalabs-ai)
